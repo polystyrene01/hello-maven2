@@ -11,11 +11,4 @@ public class Greeting
         Log log = LogFactory.getLog(Greeting.class);
         log.info("Hello " + name + "!");
     }
-    int sum(int ... ns) {
-        int x = 0;
-        for (int n : ns) {
-            x += n;
-        }
-        return x;
-    }
 }
