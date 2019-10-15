@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.polystyrene</groupId>
-  <artifactId>greeting</artifactId>
+  <artifactId>parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>my-artifact</name>
   <url>http://maven.apache.org</url>
