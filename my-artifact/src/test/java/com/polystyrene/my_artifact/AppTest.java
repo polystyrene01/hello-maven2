@@ -12,7 +12,5 @@ public class AppTest
 	@Test
     public void testApp()
     {
-        Greeting.main(null);
-        assertEquals(6, new Greeting().sum(1, 2, 3) );
     }
 }
