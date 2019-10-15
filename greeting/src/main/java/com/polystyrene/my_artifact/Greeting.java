@@ -3,13 +3,13 @@ package com.polystyrene.my_artifact;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-public class App 
+public class Greeting 
 {
-    public static void main( String[] args )
+    public static void print( String name )
     {
         System.out.println( "Hello World!" );
-        Log log = LogFactory.getLog(App.class);
-        log.info("Hello, world!");
+        Log log = LogFactory.getLog(Greeting.class);
+        log.info("Hello " + name + "!");
     }
     int sum(int ... ns) {
         int x = 0;
